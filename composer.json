@@ -1,0 +1,22 @@
+{
+  "name": "codemonkeyluffy/aliyun-core",
+  "description": "基于阿里云SdkCore封装的composer组件包",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "codemonkeyluffy",
+      "email": "codemonkeyluffy@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodeMonkeyLuffy\\Aliyun\\Core\\": "./src/"
+    },
+    "files": [
+      "./src/Config.php"
+    ]
+  }
+}
